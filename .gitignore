@@ -25,3 +25,7 @@
 /java/test/nbproject/*
 
 /csharp/*
+
+/.idea/
+/java/api/*.iml
+/java/applets/*.iml

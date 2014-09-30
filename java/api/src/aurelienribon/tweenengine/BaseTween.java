@@ -525,6 +525,8 @@ public abstract class BaseTween<T> {
 				float delta = deltaTime;
 				deltaTime -= delta;
 				currentTime += delta;
+				callCallback(TweenCallback.STEP);
+				
 				updateOverride(step, step, isIterationStep, delta);
 				break;
 
